@@ -91,3 +91,7 @@ print(marcel.alter())
 print("alter:", Teilnehmer.alter(marcel)) # here the object is also given
 
 
+# zeilenweise ausgabe - erst am ende der elemente, aber wie für jedes element
+print(gruppe, sep="\n")
+# liste konsumieren: interpretiere die einzelnen bestandteil der liste
+print(*gruppe, sep="\n") # linewise printing
