@@ -40,13 +40,18 @@ class Teilnehmer(object):
         self.ort = ort
         self.sprachen = sprachen
 
-    # neue funktion definieren (europäische variante)
-    def alter(datum):
+##this annotation is important: just for testing
+#    @staticmethod
+#    def foo():
+#        pass
+
+    # birth date of the current object
+    def alter(self): #signatur of the method
         heute = datetime.date.today()
+        datum = self.geburtsdatum
         jahre = heute.year - datum.year  # syntax highlighting
-        # lange variante
         if (datum.month, datum.day) < (heute.month, heute.day):  # lexikographischer vergleich
-            jahre -= 1  # eins abziehen
+            jahre -= 1  # remove one if no party in the current year :'(
 
         return jahre
     ## ende der funktion
@@ -60,6 +65,8 @@ martin = Teilnehmer(" Martin", datetime.date(1987,3,3), "Sindelfingen", ["Matlab
 matthias = Teilnehmer("Matthias", datetime.date(1989,8,18), "Lichtenau", ["Matlab"])
 daniel = Teilnehmer("Daniel", datetime.date(1980,1,1), "Bielefeld", ["Python", "Java"])
 
+gruppe = [thomas, marcel, henning, martin, matthias, daniel]
+
 ## pythontutor.com <---- wichtig! dort kan man durch den Code steppen
 # visualisiert den quellcode; dort ist stack un dheap sichtbar!
 # Etiketten und Objekte
@@ -71,15 +78,11 @@ daniel = Teilnehmer("Daniel", datetime.date(1980,1,1), "Bielefeld", ["Python", "
 # oder: python.org: launch interactive shell
 
 # jetzt muss die altersberechnung noch implementiert werden: direkt als methode des objektes
-#neue funktion definieren (europäische variante)
-def alter(datum):
-    heute = datetime.date.today()
-    jahre = heute.year - datum.year #syntax highlighting
-    # lange variante
-    if(datum.month, datum.day) < (heute.month, heute.day): # lexikographischer vergleich
-        jahre -= 1 #eins abziehen
 
-    return jahre
-## ende der funktion
+# call of the functions
+print(gruppe) #print the whole memory layout
+# both work!
+print(marcel.alter())
+print(Teilnehmer.alter(marcel))
 
 
