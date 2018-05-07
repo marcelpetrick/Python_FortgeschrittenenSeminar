@@ -1,0 +1,6 @@
+python dev kurs 201800507:
+- pycharm von jetbrains als ide
+- am ende des kurses kommt dann der workspace von dem typen :)
+- projekte in pakte gegliedert
+
+paket anlegen, kleines p als präfix

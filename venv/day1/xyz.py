@@ -19,11 +19,24 @@ import datetime
 # oder liste von klassen?
 
 thomas = ["Thomas", datetime.date(1970, 2, 2), "Bielefeld", ["C", "Bash"]]
-marcel = [!Marcel", datetime.date(1983, 1, 1), "Kiel", ["C++", "Bash"]]
+marcel = ["Marcel", datetime.date(1983, 1, 1), "Kiel", ["C++", "Bash"]]
 gruppe = [thomas, marcel] #semikolons sind nicht notwendig - leere anweisung
 
+# ### Zwei Arten von Strukturen waren möglich ### als beispiel erstmal mit Listen
+## jetzt: wie abfragen?
 
-for(True);
+# 0: Alter ermitteln? Geburtsdatum von heutigen Datum abziehen?
+heute = datetime.date.today() #python: googlen wie datum erzeugen
+# doc.python.org - dann auf 3 umstellen
+diff = heute - datetime.date(2017, 1,1)
+print("age:" , diff)
+
+
+# 1) Welche Teilnhemer sind am jüngsten?
+# Alter erhalten?
+# 2) Aus welchen Orten kommen die jüngsten Teilnehmer?
+
+
 
 # unterschied rund eund eckige klammern?
 # tupel () nicht veränderbar, aber listen [] sind
