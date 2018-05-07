@@ -63,7 +63,9 @@ print(namensliste)
 ortsliste = [teilnehmer[2] for teilnehmer in gruppe
                if alter(teilnehmer[1]) == kleinstes]
 print(ortsliste)
+# aufgabe: duplikate (dopplungen) ebenfalls entfernen aus der list
 
+# aufgabe: 3.) Welche Programmiersprachen sind am häufigsten vertretne? also müsste man alle listen durcharbeiten und dann alles statistisch auswerten
 
 # unterschied rund eund eckige klammern?
 # tupel () nicht veränderbar, aber listen [] sind
