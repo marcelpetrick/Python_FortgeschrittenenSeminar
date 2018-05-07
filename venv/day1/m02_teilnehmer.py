@@ -10,3 +10,12 @@
 # Daniel, 1.1.80, Bielefeld, Python, Java
 
 
+# Alan Kay der Vater der objektorientierten Programmierung; Erfinder von Smalltalk
+# Squeak(?)
+
+# was wäre für die VHS interessant? die personen, das konto, ..
+# Objekte haben ihren eigenen Speicher - alles ist gekapselt; Objekte haben "Eigenschaften"
+# Objekte kommunizieren miteinander via Nachrichten - "Fragestellung -> Antwort"
+# anders als vorher, wo man Daten und Methoden getrennt hatte - haben wir jetzt ein Objekt, welches direkt sagen kann wie alt es ist. wird befragt. funktionalität zur beantwortung ist teil des objektes
+
+
