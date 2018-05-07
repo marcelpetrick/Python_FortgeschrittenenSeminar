@@ -1,5 +1,16 @@
 import datetime
 
+#neue funktion definieren (europäische variante)
+def alter(datum):
+    heute = datetime.date.today()
+    jahre = heute.year - datum.year #syntax highlighting
+    # lange variante
+    if(datum.monat, datum.tag) < (heute.monat, heute.tag): # lexikographischer vergleich
+        jahre -= 1 #eins abziehen
+
+    return jahre
+## ende der funktion
+
 # Thomas, 2.2.70, Bielefeld, C, Java
 # Marcel, 1.1.83, Kiel, C++, Bash
 # Henning, 16.1.60, Hildesheim, Assembler, RexX
@@ -31,6 +42,7 @@ heute = datetime.date.today() #python: googlen wie datum erzeugen
 diff = heute - datetime.date(2017, 1,1)
 print("age:" , diff)
 
+print(alter(datetime(1983, 1, 1)))
 
 # 1) Welche Teilnhemer sind am jüngsten?
 # Alter erhalten?
