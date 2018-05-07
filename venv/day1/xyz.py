@@ -59,6 +59,10 @@ namensliste = [teilnehmer[0] for teilnehmer in gruppe
 print(namensliste)
 
 # 2) Aus welchen Orten kommen die jüngsten Teilnehmer?
+# copy paste
+ortsliste = [teilnehmer[2] for teilnehmer in gruppe
+               if alter(teilnehmer[1]) == kleinstes]
+print(ortsliste)
 
 
 # unterschied rund eund eckige klammern?
