@@ -25,7 +25,7 @@ class Teilnehmer(object):
 
 # hier noch falsch, weil ohne prüfungen implementiert - aber wenn man später den direkten Zugriff auf Proper
 try:
-    anna =  Teilnehmer("Anna", -7)
+    anna =  Teilnehmer("Anna", 7) # if you write here -7, then an exception is raised and handled: in error-case then no object exists
 except Exception:
     print("Bockmist")
 
@@ -35,3 +35,7 @@ anna.vornamen = "peter" # geht, aber sollte liebernicht so ausgeführt werden k�
 # dies kann man über slots machen - und darüber prüfen, ob gültige Methode
 
 print(Teilnehmer.validHandicap(anna.handicap))
+
+# https://github.com/python/cpython/blob/master/Lib/datetime.py
+# Die Frage, was ist der heutige Tag ist nichts, was man an ein Datumsobjekt stellen möchte. Sondern eher statisch, aber in größeren Rahmen einetten. Kontext damit gegeben.
+
