@@ -34,11 +34,16 @@ class Teilnehmer(object):
         Dokumentationskommentar
         '''
 # Doxygen ... zum Beispiel um Zeugs zu kommentieren
-
         self.vorname = vorname
         self.geburtsdatum = geburtsdatum
         self.ort = ort
         self.sprachen = sprachen
+
+    # new magic method: representation
+    def __repr__(self): # string angeben was ausgegeben werden soll, was derzeit das objekt ist; meist nie selber aufgerufen
+        #return self.vorname + " " + str(blubb) # very ugly
+        # therefore: formatted output: %s or %2f
+        return "%s %s %s %s" % (self.vorname, self.geburtsdatum, self.ort, self.sprachen)
 
 ##this annotation is important: just for testing
 #    @staticmethod
@@ -80,9 +85,9 @@ gruppe = [thomas, marcel, henning, martin, matthias, daniel]
 # jetzt muss die altersberechnung noch implementiert werden: direkt als methode des objektes
 
 # call of the functions
-print(gruppe) #print the whole memory layout
+print(gruppe) #print the whole memory layout - but very ugly: see the type and which location in memory
 # both work!
 print(marcel.alter())
-print(Teilnehmer.alter(marcel))
+print("alter:", Teilnehmer.alter(marcel)) # here the object is also given
 
 
