@@ -7,14 +7,14 @@ class Teilnehmer(object):
         Dokumentationskommentar
         '''
 # Doxygen ... zum Beispiel um Zeugs zu kommentieren
-        self.vorname = vorname
+        self.__vorname = vorname
         self.geburtsdatum = geburtsdatum
         self.ort = ort
         self.sprachen = sprachen
 
     # new magic method: representation
     def __repr__(self): # string angeben was ausgegeben werden soll, was derzeit das objekt ist; meist nie selber aufgerufen
-        return "%s %s %s %s" % (self.vorname, self.geburtsdatum, self.ort, self.sprachen)
+        return "%s %s %s %s" % (self.__vorname, self.geburtsdatum, self.ort, self.sprachen)
 
     # age of the current object
     def alter(self): #signatur of the method
@@ -37,3 +37,27 @@ daniel = Teilnehmer("Daniel", datetime.date(1980,1,1), "Bielefeld", ["Python", "
 
 gruppe = [thomas, marcel, henning, martin, matthias, daniel]
 print(gruppe) # einzeilige Ausgabe
+
+# derzit wäre änderung zulässig; ebenfalls wäre so etwas wie 2019, 1,1 möglich
+# oder: thomas.geburtsdatum = "Foo" # funktioniert, weil nur Eitketten - kein Typ
+thomas.geburtsdatum = datetime.date(1994,1,1) # nicht mehr schick
+
+# Idee der Kapselung: Zugriff auf die Eigenschaften der Objekte um Eigenschaften zu härten; Prüfung ob Änderung zulässig ist
+# direkter Zugriff auf die Eigenschaft nicht mehr möglich, nur noch via Methode - die prüft, ob neues gültiges Geburtstdatum
+# Bernd Klein - Python; schöne Webseite
+# https://www.python-kurs.eu/python3_properties.php
+# properties, klassenattribute, ..
+
+# Eigenschaften mit _ sind als privat gekennzeichnet - ist aber nur reine Konvention
+# nur in Kombination mit Methoden
+# wirkt nur, wenn der Entwickler selber das Bewusstsein hat, dass diese Konvention gilt
+
+# __ als Präfix scheint tatsächlich zu verbergen
+
+# jetzt hätte man leider eine neue methode hinzugefügt zu dem objekt: als _Teilnehmer__vorname
+# verhindert, dass man versehentlich etwas ändert - aber trotzdem ärgerlich, weil man nicht geändret hat
+thomas.__vorname = "Peter"
+
+thomas._Teilnehmer__vorname = "Peter" #is the same
+# resultat: verhindert effektiv, dass man etwas überschreibt, aber man verhindert es nicht
+
