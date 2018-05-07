@@ -18,10 +18,12 @@ import datetime
 # liste (tupel) als datenstruktur, eventuell mit wörterbuch?
 # oder liste von klassen?
 
-thomas = ["Thomas", "2.2.70", "Bielefeld", ["C", "Bash"]]
-marcel = [!Marcel", "1.1.1983", "Kiel", ["C++", "Bash"]]
-gruppe = [thomas, marcel];
+thomas = ["Thomas", datetime.date(1970, 2, 2), "Bielefeld", ["C", "Bash"]]
+marcel = [!Marcel", datetime.date(1983, 1, 1), "Kiel", ["C++", "Bash"]]
+gruppe = [thomas, marcel] #semikolons sind nicht notwendig - leere anweisung
 
+
+for(True);
 
 # unterschied rund eund eckige klammern?
 # tupel () nicht veränderbar, aber listen [] sind
