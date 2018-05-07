@@ -23,16 +23,20 @@ class Teilnehmer(object):
     def __repr__(self): # string angeben was ausgegeben werden soll, was derzeit das objekt ist; meist nie selber aufgerufen
         return "%s %s %s %s" % (self.vorname, self.__geburtsdatum, self.ort, self.sprachen)
 
-    def getGeburtsdatum(self):
+    def __getGeburtsdatum(self):
         return self.__geburtsdatum
 
     # setter
-    def setGeburtsdatum(self, geburtsdatum):
+    def __setGeburtsdatum(self, geburtsdatum):
         # not in the future
         if geburtsdatum <= datetime.date.today():
             self.__geburtsdatum = geburtsdatum
         else: # dann wie es in der OOP üblich ist: exception raushauen, die auch wieder eine klasse ist
             raise GeburtsdatumError("Ungültiges Geburtsdatum")
+
+    # neue, richtige Property
+    # immer "lesen", "schreiben"
+    geburtsdatum = property(__getGeburtsdatum, __setGeburtsdatum) # Achtung, Funtkion mitgeben, nicht ihren Aufruf! das ist eine Dekoration!
 
     # age of the current object
     def alter(self): #signatur of the method
@@ -87,10 +91,10 @@ thomas.geburtsdatum = datetime.date(1994,1,1) # nicht mehr schick
 
 # learn: how to read stacktrace
 # methodenaufrufe: reihenfolge anschauen, python klassen an sich heile
-try:
-    thomas.setGeburtsdatum(datetime.date(2020, 1,1)) # meist mehrere Zuweisungen
-except GeburtsdatumError as error:
-    print(error) # funktioniert, weil benamtes Objekt und man die repr-Methode nicht noch neu implementieren muss
+# try:
+#     thomas.setGeburtsdatum(datetime.date(2020, 1,1)) # meist mehrere Zuweisungen
+# except GeburtsdatumError as error:
+#     print(error) # funktioniert, weil benamtes Objekt und man die repr-Methode nicht noch neu implementieren muss
 
 # Prüfungen verhindern inkonsitente Zustände! :)
 
@@ -98,3 +102,10 @@ except GeburtsdatumError as error:
 #thomas.handicap += 5
 #thomas.setHandicap(thomas.getHandicap + 5) # wäre mühsam
 # wie man sieht blähen die Properties die Schreibweise auf
+
+#thomas.geburtsdatum = datetime.date(2028,1,1) # ungültig, aber machbar im code - führt zur explosion zur laufzeit
+#print(thomas.geburtsdatum)
+
+# Property ist Teil der Klasse, nicht Teil einer Methode
+
+
