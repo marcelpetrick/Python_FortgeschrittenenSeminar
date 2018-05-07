@@ -43,7 +43,8 @@ class Teilnehmer(object):
     def __repr__(self): # string angeben was ausgegeben werden soll, was derzeit das objekt ist; meist nie selber aufgerufen
         #return self.vorname + " " + str(blubb) # very ugly
         # therefore: formatted output: %s or %2f
-        return "%s %s %s %s" % (self.vorname, self.geburtsdatum, self.ort, self.sprachen)
+        return "%s %s %s %s %s" % (self.__class__, self.vorname, self.geburtsdatum, self.ort, self.sprachen)
+    # wie representation-name ausgeben? - siehe erstes attribut, self.__class__ - aber instanz selber hat keinen namen
 
 ##this annotation is important: just for testing
 #    @staticmethod
@@ -62,8 +63,7 @@ class Teilnehmer(object):
     ## ende der funktion
 
 # variablen name = Instanziierung eines Objektes; ANlegen einer neuen Instanz
-thomas = Teilnehmer("Thomas", datetime.date(1970,2,2), "Bielefeld",
-                    ["C", "Bash"])
+thomas = Teilnehmer("Thomas", datetime.date(1970,2,2), "Bielefeld", ["C", "Bash"])
 marcel = Teilnehmer("Marcel", datetime.date(1983,1,1), "Kiel", ["C++", "Bash"])
 henning = Teilnehmer("Henning", datetime.date(1960,1,16), "Hildesheim", ["Assembler", "RexX"])
 martin = Teilnehmer(" Martin", datetime.date(1987,3,3), "Sindelfingen", ["Matlab"])
@@ -95,3 +95,26 @@ print("alter:", Teilnehmer.alter(marcel)) # here the object is also given
 print(gruppe, sep="\n")
 # liste konsumieren: interpretiere die einzelnen bestandteil der liste
 print(*gruppe, sep="\n") # linewise printing
+
+
+# 1) Jüngste Teilnehmer
+# liste der jüngsten Teilnehmer erstellen
+smolAge = 999
+for teilnehmer in gruppe:
+    if(teilnehmer.alter() < smolAge):
+        smolAge = teilnehmer.alter()
+print(smolAge)
+# iterate over all members
+# pick the ones with the youngest members
+#print
+juenglinge = []
+for teilnehmer in gruppe:
+    if(teilnehmer.alter() == smolAge):
+        juenglinge.append(teilnehmer)
+
+print(juenglinge)
+
+# 2) Orte der jüngsten Teilnehmer
+#print(*juenglinge ort)
+for leute in juenglinge:
+    print(leute.ort)
