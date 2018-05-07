@@ -118,3 +118,19 @@ print(juenglinge)
 #print(*juenglinge ort)
 for leute in juenglinge:
     print(leute.ort)
+
+print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+############### solution from the guy ##########
+# 1) jüngste teilnehmer
+altersliste = [teilnehmer.alter() for teilnehmer in gruppe]
+kleinstes = min(altersliste)
+juengsteTeilnehmer = [teilnehmer for teilnehmer in gruppe #komplett aufnhemne, jeden Teilnehmer aus der Gruppe
+                   if  teilnehmer.alter() == kleinstes] # wenn gleich das min. Alter ist
+
+print(juengsteTeilnehmer)
+
+# 2) Orte der Teilnehmer
+orte = [teilnehmer.ort for teilnehmer in juengsteTeilnehmer]
+# Aufgabe remove dupcliates!!
+print(orte)
