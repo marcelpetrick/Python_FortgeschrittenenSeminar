@@ -47,9 +47,17 @@ print("age:" , diff)
 # important: list comprehension (im grunde eine verkuerzte schleife)
 altersliste = [alter(teilnehmer[1]) for teilnehmer in gruppe]
 print(altersliste)
+# oder eingebaute map-function benutzen
 
 # 1) Welche Teilnhemer sind am jüngsten?
 # Alter erhalten?
+# jetzt müsste man die namen mitspeichern. oder ausnutzen, dass alterliste ja auch reihenfolge hat
+# ODER: alter in gruppeneinträge einfügen
+kleinstes = min(altersliste) #find the smallest entry
+namensliste = [teilnehmer[0] for teilnehmer in gruppe
+               if alter(teilnehmer[1]) == kleinstes]
+print(namensliste)
+
 # 2) Aus welchen Orten kommen die jüngsten Teilnehmer?
 
 
