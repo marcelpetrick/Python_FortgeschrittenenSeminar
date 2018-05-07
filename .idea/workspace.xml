@@ -20,11 +20,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m02_teilnehmer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m02_teilnehmer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day1/m02_teilnehmer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="248">
               <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m03_stern.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day1/m03_stern.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -48,6 +57,7 @@
         <option value="$PROJECT_DIR$/venv/day1/m01_kennenlernen.py" />
         <option value="$PROJECT_DIR$/venv/day1/m01_kennenlernen1.py" />
         <option value="$PROJECT_DIR$/venv/day1/m02_teilnehmer.py" />
+        <option value="$PROJECT_DIR$/venv/day1/m03_stern.py" />
       </list>
     </option>
   </component>
@@ -126,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m02_teilnehmer">
+  <component name="RunManager" selected="Python.m03_stern">
     <configuration name="m01_kennenlernen1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +173,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="m03_stern" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day1/m03_stern.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="xyz" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,9 +213,11 @@
       <item itemvalue="Python.xyz" />
       <item itemvalue="Python.m01_kennenlernen1" />
       <item itemvalue="Python.m02_teilnehmer" />
+      <item itemvalue="Python.m03_stern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m03_stern" />
         <item itemvalue="Python.m02_teilnehmer" />
         <item itemvalue="Python.m01_kennenlernen1" />
         <item itemvalue="Python.xyz" />
@@ -215,7 +245,7 @@
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50073206" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3296875" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3296875" />
       <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
@@ -256,6 +286,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day1/m03_stern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
         </state>
       </provider>
     </entry>
