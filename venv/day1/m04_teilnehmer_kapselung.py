@@ -92,5 +92,9 @@ try:
 except GeburtsdatumError as error:
     print(error) # funktioniert, weil benamtes Objekt und man die repr-Methode nicht noch neu implementieren muss
 
-
 # Prüfungen verhindern inkonsitente Zustände! :)
+
+# ### Nachteile ###
+#thomas.handicap += 5
+#thomas.setHandicap(thomas.getHandicap + 5) # wäre mühsam
+# wie man sieht blähen die Properties die Schreibweise auf
