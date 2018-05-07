@@ -40,6 +40,17 @@ class Teilnehmer(object):
         self.ort = ort
         self.sprachen = sprachen
 
+    # neue funktion definieren (europäische variante)
+    def alter(datum):
+        heute = datetime.date.today()
+        jahre = heute.year - datum.year  # syntax highlighting
+        # lange variante
+        if (datum.month, datum.day) < (heute.month, heute.day):  # lexikographischer vergleich
+            jahre -= 1  # eins abziehen
+
+        return jahre
+    ## ende der funktion
+
 # variablen name = Instanziierung eines Objektes; ANlegen einer neuen Instanz
 thomas = Teilnehmer("Thomas", datetime.date(1970,2,2), "Bielefeld",
                     ["C", "Bash"])
@@ -56,5 +67,19 @@ daniel = Teilnehmer("Daniel", datetime.date(1980,1,1), "Bielefeld", ["Python", "
 # es wäre möglich einen zweiten konstruktur mit (zB) weniger Feldern anzulegen; programm stürtz deann halt ab, aber das ist so. keine defaultwerte
 # in dem codevisualizer werden strings direkt dargestellt, sinder aber auch objekte
 
+# console für python öffnen
+# oder: python.org: launch interactive shell
+
+# jetzt muss die altersberechnung noch implementiert werden: direkt als methode des objektes
+#neue funktion definieren (europäische variante)
+def alter(datum):
+    heute = datetime.date.today()
+    jahre = heute.year - datum.year #syntax highlighting
+    # lange variante
+    if(datum.month, datum.day) < (heute.month, heute.day): # lexikographischer vergleich
+        jahre -= 1 #eins abziehen
+
+    return jahre
+## ende der funktion
 
 
