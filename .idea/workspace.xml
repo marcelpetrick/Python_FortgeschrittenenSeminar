@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="xyz.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/day1/xyz.py">
+      <file leaf-file-name="m01_kennenlernen.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day1/m01_kennenlernen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+            <state relative-caret-position="248">
+              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -127,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day1/xyz.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\tanteedith\PycharmProjects\20180507_PythonFortgeschrittene\venv\day1\m01_kennenlernen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,10 +182,10 @@
     <entry file="file://$PROJECT_DIR$/venv/day1/m01_kennenlernen.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/day1/xyz.py">
+    <entry file="file://$PROJECT_DIR$/venv/day1/m01_kennenlernen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+        <state relative-caret-position="248">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
         </state>
       </provider>
     </entry>
