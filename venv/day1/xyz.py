@@ -5,7 +5,7 @@ def alter(datum):
     heute = datetime.date.today()
     jahre = heute.year - datum.year #syntax highlighting
     # lange variante
-    if(datum.monat, datum.tag) < (heute.monat, heute.tag): # lexikographischer vergleich
+    if(datum.month, datum.day) < (heute.month, heute.day): # lexikographischer vergleich
         jahre -= 1 #eins abziehen
 
     return jahre
@@ -42,12 +42,15 @@ heute = datetime.date.today() #python: googlen wie datum erzeugen
 diff = heute - datetime.date(2017, 1,1)
 print("age:" , diff)
 
-print(alter(datetime(1983, 1, 1)))
+#print(alter(datetime(1983, 1, 1)))
+# über alle teilnehmer der liste iterieren, dann zweites feld nutzen und in alter reinschieben
+# important: list comprehension (im grunde eine verkuerzte schleife)
+altersliste = [alter(teilnehmer[1]) for teilnehmer in gruppe]
+print(altersliste)
 
 # 1) Welche Teilnhemer sind am jüngsten?
 # Alter erhalten?
 # 2) Aus welchen Orten kommen die jüngsten Teilnehmer?
-
 
 
 # unterschied rund eund eckige klammern?
