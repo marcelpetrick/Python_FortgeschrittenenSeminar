@@ -4,3 +4,9 @@ python dev kurs 201800507:
 - projekte in pakte gegliedert
 
 paket anlegen, kleines p als präfix
+m01_kennenlernen.py
+
+-----------------
+
+wie die sachen sindvoll in packages strukturieren?
+mein ziel: threads und synchronisation
