@@ -39,3 +39,4 @@ print(Teilnehmer.validHandicap(anna.handicap))
 # https://github.com/python/cpython/blob/master/Lib/datetime.py
 # Die Frage, was ist der heutige Tag ist nichts, was man an ein Datumsobjekt stellen möchte. Sondern eher statisch, aber in größeren Rahmen einetten. Kontext damit gegeben.
 
+# Morgen: Slots - dann zusammen mit der Wiederholung
