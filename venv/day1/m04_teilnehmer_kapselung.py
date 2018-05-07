@@ -7,14 +7,25 @@ class Teilnehmer(object):
         Dokumentationskommentar
         '''
 # Doxygen ... zum Beispiel um Zeugs zu kommentieren
-        self.__vorname = vorname
-        self.geburtsdatum = geburtsdatum
+        self.vorname = vorname
+        self.__geburtsdatum = geburtsdatum
         self.ort = ort
         self.sprachen = sprachen
 
     # new magic method: representation
     def __repr__(self): # string angeben was ausgegeben werden soll, was derzeit das objekt ist; meist nie selber aufgerufen
-        return "%s %s %s %s" % (self.__vorname, self.geburtsdatum, self.ort, self.sprachen)
+        return "%s %s %s %s" % (self.vorname, self.__geburtsdatum, self.ort, self.sprachen)
+
+    def getGeburtsdatum(self):
+        return self.__geburtsdatum
+
+    # setter
+    def setGeburtsdatum(selfself, geburtsdatum):
+        # not in the future
+        if geburtsdatum <= datetime.date.today():
+            self.__geburtsdatum = geburtsdatum
+        else: # dann wie es in der OOP üblich ist: exception raushauen, die auch wieder eine klasse ist
+            raise ValueError("ungültiges Geburtsdatum")
 
     # age of the current object
     def alter(self): #signatur of the method
@@ -56,8 +67,12 @@ thomas.geburtsdatum = datetime.date(1994,1,1) # nicht mehr schick
 
 # jetzt hätte man leider eine neue methode hinzugefügt zu dem objekt: als _Teilnehmer__vorname
 # verhindert, dass man versehentlich etwas ändert - aber trotzdem ärgerlich, weil man nicht geändret hat
-thomas.__vorname = "Peter"
+#thomas.__vorname = "Peter"
 
-thomas._Teilnehmer__vorname = "Peter" #is the same
+#thomas._Teilnehmer__vorname = "Peter" #is the same
 # resultat: verhindert effektiv, dass man etwas überschreibt, aber man verhindert es nicht
+
+
+# doppelter unterstrich: "privat"
+# einfacher unterstrich: interne variablen, die nicht während initialisierung belegt werden
 
