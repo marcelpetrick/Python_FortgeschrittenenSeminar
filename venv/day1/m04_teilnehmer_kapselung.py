@@ -1,4 +1,11 @@
 import datetime
+
+# um OOP-üblich den Hinweis zu geben im Fall der falschen Zuweisung
+class GeburtsdatumError(BaseException): # abgeleitet von Baseexception
+    pass #nicht speziell definiert, was passieren soll
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 class Teilnehmer(object):
     def __init__(self, vorname, geburtsdatum, ort, sprachen): #magische Methode notwendig; Initialisieren des neuen Objektes; Konstruktormehtode
         '''
@@ -20,12 +27,12 @@ class Teilnehmer(object):
         return self.__geburtsdatum
 
     # setter
-    def setGeburtsdatum(selfself, geburtsdatum):
+    def setGeburtsdatum(self, geburtsdatum):
         # not in the future
         if geburtsdatum <= datetime.date.today():
             self.__geburtsdatum = geburtsdatum
         else: # dann wie es in der OOP üblich ist: exception raushauen, die auch wieder eine klasse ist
-            raise ValueError("ungültiges Geburtsdatum")
+            raise GeburtsdatumError("Ungültiges Geburtsdatum")
 
     # age of the current object
     def alter(self): #signatur of the method
@@ -37,6 +44,8 @@ class Teilnehmer(object):
 
         return jahre
     ## ende der funktion
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # variablen name = Instanziierung eines Objektes; ANlegen einer neuen Instanz
 thomas = Teilnehmer("Thomas", datetime.date(1970,2,2), "Bielefeld", ["C", "Bash"])
@@ -76,3 +85,12 @@ thomas.geburtsdatum = datetime.date(1994,1,1) # nicht mehr schick
 # doppelter unterstrich: "privat"
 # einfacher unterstrich: interne variablen, die nicht während initialisierung belegt werden
 
+# learn: how to read stacktrace
+# methodenaufrufe: reihenfolge anschauen, python klassen an sich heile
+try:
+    thomas.setGeburtsdatum(datetime.date(2020, 1,1)) # meist mehrere Zuweisungen
+except GeburtsdatumError as error:
+    print(error) # funktioniert, weil benamtes Objekt und man die repr-Methode nicht noch neu implementieren muss
+
+
+# Prüfungen verhindern inkonsitente Zustände! :)
