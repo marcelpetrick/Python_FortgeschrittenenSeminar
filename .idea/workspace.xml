@@ -59,11 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m04_fibonacci_memoisation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci_memoisation.py">
+      <file leaf-file-name="m05_fibonacci_memoisation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/day2/m05_fibonacci_memoisation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+            <state relative-caret-position="194">
+              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m06_fibonacci_decorated.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day2/m06_fibonacci_decorated.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -96,6 +105,7 @@
         <option value="$PROJECT_DIR$/venv/day2/m03_fakultaet.py" />
         <option value="$PROJECT_DIR$/venv/day2/m04_fibonacci.py" />
         <option value="$PROJECT_DIR$/venv/day2/m04_fibonacci_memoisation.py" />
+        <option value="$PROJECT_DIR$/venv/day2/m06_fibonacci_decorated.py" />
       </list>
     </option>
   </component>
@@ -446,10 +456,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci_memoisation.py">
+    <entry file="file://$PROJECT_DIR$/venv/day2/m05_fibonacci_memoisation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="74" selection-start-line="34" selection-start-column="74" selection-end-line="34" selection-end-column="74" />
+        <state relative-caret-position="194">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day2/m06_fibonacci_decorated.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
