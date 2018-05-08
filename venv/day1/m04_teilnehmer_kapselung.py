@@ -107,5 +107,3 @@ thomas.geburtsdatum = datetime.date(1994,1,1) # nicht mehr schick
 #print(thomas.geburtsdatum)
 
 # Property ist Teil der Klasse, nicht Teil einer Methode
-
-

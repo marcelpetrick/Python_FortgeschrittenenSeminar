@@ -38,15 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m07_decoration.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day2/m07_decoration.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" selection-start-line="10" selection-end-line="17" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="m08_type_check_decoration.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,8 +59,44 @@
       <file leaf-file-name="m10_slots.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/day2/m10_slots.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m02_teilnehmer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/day1/m02_teilnehmer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="43" column="25" selection-start-line="42" selection-end-line="45" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m01_kennenlernen1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/day1/m01_kennenlernen1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="63" column="51" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m03_stern.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/day1/m03_stern.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m04_teilnehmer_kapselung.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/day1/m04_teilnehmer_kapselung.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
@@ -83,6 +110,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>try</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -94,7 +126,6 @@
         <option value="$PROJECT_DIR$/venv/day1/m01_kennenlernen1.py" />
         <option value="$PROJECT_DIR$/venv/day1/m03_stern.py" />
         <option value="$PROJECT_DIR$/venv/day1/m02_teilnehmer.py" />
-        <option value="$PROJECT_DIR$/venv/day1/m04_teilnehmer_kapselung.py" />
         <option value="$PROJECT_DIR$/venv/day1/m05_kapselung.py" />
         <option value="$PROJECT_DIR$/venv/day2/m01_uhr.py" />
         <option value="$PROJECT_DIR$/venv/day1/m06_kalender.py" />
@@ -106,6 +137,7 @@
         <option value="$PROJECT_DIR$/venv/day2/m07_decoration.py" />
         <option value="$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py" />
         <option value="$PROJECT_DIR$/venv/day2/m09_brueche.py" />
+        <option value="$PROJECT_DIR$/venv/day1/m04_teilnehmer_kapselung.py" />
         <option value="$PROJECT_DIR$/venv/day2/m10_slots.py" />
       </list>
     </option>
@@ -377,39 +409,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/day1/m01_kennenlernen1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="63" column="51" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/day1/m04_teilnehmer_kapselung.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/day1/m02_teilnehmer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="43" column="25" selection-start-line="42" selection-end-line="45" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/day1/m03_stern.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-77676315/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -498,10 +502,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day1/m02_teilnehmer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="43" column="25" selection-start-line="42" selection-end-line="45" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day1/m01_kennenlernen1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="63" column="51" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day1/m03_stern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day1/m04_teilnehmer_kapselung.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/day2/m10_slots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
