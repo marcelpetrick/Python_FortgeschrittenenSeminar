@@ -1,14 +1,11 @@
 # Homework: implement Vector
 
-# Plan: Elemente der Datenstrukturen auch in natürlicher Weise nutzen können.
-# Natürlich objekt-orientiert.
-
-class Bruch(object):
+class Math:
     # wir brauchen etwas zum Kuerzen
-    #1  wenn b = 0 dann
-    #2    Ergebnis = a
-    #3  sonst
-    #4    Ergebnis = EUCLID(b, Divisionsrest(a durch b))    // siehe Modulo-Funktion
+    # 1  wenn b = 0 dann
+    # 2    Ergebnis = a
+    # 3  sonst
+    # 4    Ergebnis = EUCLID(b, Divisionsrest(a durch b))    // siehe Modulo-Funktion
     # @staticmethod
     # def ggT(a, b):
     #     if b == 0:
@@ -16,23 +13,28 @@ class Bruch(object):
     #     else:
     #         return Bruch.ggT(b, a % b)
 
-    #or: math.gcd(a,b)
+    # or: math.gcd(a,b)
 
-    #iterative Variante: siehe Wikipedia
+    # iterative Variante: siehe Wikipedia
     @staticmethod
-    def ggT(a,b):
+    def ggT(a, b):
         while b != 0:
             h = a % b
-            a, b = b ,h
-            #print (a,b)
+            a, b = b, h
+            # print (a,b)
         return a
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Plan: Elemente der Datenstrukturen auch in natürlicher Weise nutzen können.
+# Natürlich objekt-orientiert.
+class Bruch(object):
     def __init__(self, z, n = 1): # zweiter Wert jetzt mit Default
         '''
         :param z: Zähler
         :param n: Nenner
         '''
-        ggt = Bruch.ggT(z, n)
+        ggt = Math.ggT(z, n)
         self.z = z / ggt
         self.n = n / ggt
 
@@ -81,4 +83,4 @@ print(e)
 # test for a call without giving all parameters
 x = Bruch(5)
 # try to compute the greatest common divisor
-print(Bruch.ggT(12, 4))
+print(Math.ggT(12, 4))
