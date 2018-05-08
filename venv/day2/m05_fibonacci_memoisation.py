@@ -30,3 +30,8 @@ def printFib(n):
 printFib(1000)
 
 
+#~~~~~~~~~~~~~~~~~~~~~
+# How to put some "decoration" to the functional programming as some "always" added thing?
+# Can be implemented always by hand - but how to do thisin a re-usable way
+
+
