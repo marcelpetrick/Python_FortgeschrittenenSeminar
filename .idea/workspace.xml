@@ -47,18 +47,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m06_kalender.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m06_kalender.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day1/m06_kalender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-end-line="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyvenv.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="m01_uhr.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day2/m01_uhr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="m03_stern.py" pinned="false" current-in-tab="false">
@@ -93,10 +97,11 @@
         <option value="$PROJECT_DIR$/venv/day1/m04_teilnehmer_kapselung.py" />
         <option value="$PROJECT_DIR$/venv/day1/m05_kapselung.py" />
         <option value="$PROJECT_DIR$/venv/day1/m06_kalender.py" />
+        <option value="$PROJECT_DIR$/venv/day2/m01_uhr.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -125,6 +130,12 @@
               <item name="20180507_PythonFortgeschrittene" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
               <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20180507_PythonFortgeschrittene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="20180507_PythonFortgeschrittene" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="20180507_PythonFortgeschrittene" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +187,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m06_kalender">
+  <component name="RunManager" selected="Python.m01_uhr">
+    <configuration name="m01_uhr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m01_uhr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="m02_teilnehmer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,24 +219,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day1/m02_teilnehmer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="m03_stern" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day1/m03_stern.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,18 +280,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.m02_teilnehmer" />
-      <item itemvalue="Python.m03_stern" />
       <item itemvalue="Python.m04_teilnehmer_kapselung" />
       <item itemvalue="Python.m05_kapselung" />
       <item itemvalue="Python.m06_kalender" />
+      <item itemvalue="Python.m01_uhr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m01_uhr" />
         <item itemvalue="Python.m06_kalender" />
         <item itemvalue="Python.m05_kapselung" />
         <item itemvalue="Python.m04_teilnehmer_kapselung" />
         <item itemvalue="Python.m02_teilnehmer" />
-        <item itemvalue="Python.m03_stern" />
       </list>
     </recent_temporary>
   </component>
@@ -375,8 +386,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day1/m06_kalender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day2/m01_uhr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
         </state>
       </provider>
     </entry>
