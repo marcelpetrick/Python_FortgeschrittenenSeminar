@@ -11,24 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="m03_fakultaet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day2/m03_fakultaet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m04_fibonacci.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="m05_fibonacci_memoisation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day2/m05_fibonacci_memoisation.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,20 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m08_type_check_decoration.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m08_type_check_decoration.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <state relative-caret-position="347">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.tcl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl">
+      <file leaf-file-name="m09_brueche.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day2/m09_brueche.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2091">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -105,6 +87,7 @@
         <option value="$PROJECT_DIR$/venv/day2/m06_fibonacci_decorated.py" />
         <option value="$PROJECT_DIR$/venv/day2/m07_decoration.py" />
         <option value="$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py" />
+        <option value="$PROJECT_DIR$/venv/day2/m09_brueche.py" />
       </list>
     </option>
   </component>
@@ -152,6 +135,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="334" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="333" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -173,25 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m08_type_check_decoration">
-    <configuration name="m04_fibonacci_memoisation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\tanteedith\PycharmProjects\20180507_PythonFortgeschrittene\venv\day2\m05_fibonacci_memoisation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.m09_brueche">
     <configuration name="m05_fibonacci_memoisation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,20 +245,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="m09_brueche" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m09_brueche.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.m04_fibonacci_memoisation" />
       <item itemvalue="Python.m05_fibonacci_memoisation" />
       <item itemvalue="Python.m06_fibonacci_decorated" />
       <item itemvalue="Python.m07_decoration" />
       <item itemvalue="Python.m08_type_check_decoration" />
+      <item itemvalue="Python.m09_brueche" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m09_brueche" />
         <item itemvalue="Python.m08_type_check_decoration" />
         <item itemvalue="Python.m07_decoration" />
         <item itemvalue="Python.m06_fibonacci_decorated" />
         <item itemvalue="Python.m05_fibonacci_memoisation" />
-        <item itemvalue="Python.m04_fibonacci_memoisation" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +302,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50073206" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3296875" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3296875" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.3296875" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3296875" />
       <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -463,8 +462,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="347">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day2/m09_brueche.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
         </state>
       </provider>
     </entry>

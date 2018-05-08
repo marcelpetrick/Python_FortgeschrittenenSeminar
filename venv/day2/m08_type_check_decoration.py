@@ -24,3 +24,7 @@ print(result) # results: "None" - not a bug
 
 # my idea: chould be really helpful to add in quick time some output for debugging (print output of the results for function-calls)
 # define decorater as printing of call-param plus result - just add via @ to the different functions
+
+# map, filter, lambda expressions: very important
+# tomorrow: Generatoren
+# also: unit tests
