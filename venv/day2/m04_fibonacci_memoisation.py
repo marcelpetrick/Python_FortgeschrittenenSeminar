@@ -17,10 +17,16 @@ d = {} # Dictionary / Wörterbuch
 def fib(n):
     if n in (0,1):
         return 1
-    return fib(n-2) + fib(n-1) #else vermieden: Einrückungstiefe gespart
+    elif n in d: # wurde der Wert zuvor einmal berechnet?
+        return d[n] # dann gib den zurueck
+    d[n] = fib(n-2) + fib(n-1) # "cache das Ergebnis"
+    return  d[n] #else vermieden: Einrückungstiefe gespart
 
-fib = fib(30) # aber hat exponentielle Laufzeit
-print(fib)
+# small helper for printing the call with some sugar
+def printFib(n):
+    print("Fibonacci of ", n, " = ", fib(n))
 
+# do a call
+printFib(1000)
 
 
