@@ -9,21 +9,32 @@ class Bruch(object):
     #2    Ergebnis = a
     #3  sonst
     #4    Ergebnis = EUCLID(b, Divisionsrest(a durch b))    // siehe Modulo-Funktion
-    @staticmethod
-    def ggT(a, b):
-        if b == 0:
-            return a
-        else:
-            return Bruch.ggT(b, a % b)
+    # @staticmethod
+    # def ggT(a, b):
+    #     if b == 0:
+    #         return a
+    #     else:
+    #         return Bruch.ggT(b, a % b)
+
     #or: math.gcd(a,b)
+
+    #iterative Variante: siehe Wikipedia
+    @staticmethod
+    def ggT(a,b):
+        while b != 0:
+            h = a % b
+            a, b = b ,h
+            #print (a,b)
+        return a
 
     def __init__(self, z, n = 1): # zweiter Wert jetzt mit Default
         '''
         :param z: Zähler
         :param n: Nenner
         '''
-        self.z = z
-        self.n = n
+        ggt = Bruch.ggT(z, n)
+        self.z = z / ggt
+        self.n = n / ggt
 
 # Important: Wenn man Operatoren überlädt, dann immer paarig machen, damit man keine Richtung vergisst
     def __mul__(self, other):
@@ -67,6 +78,7 @@ e = 4 * a
 # e = a.__rmul__(4)
 print(e)
 
+# test for a call without giving all parameters
 x = Bruch(5)
-
+# try to compute the greatest common divisor
 print(Bruch.ggT(12, 4))
