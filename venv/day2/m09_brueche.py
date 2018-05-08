@@ -4,7 +4,20 @@
 # Natürlich objekt-orientiert.
 
 class Bruch(object):
-    def __init__(self, z, n):
+    # wir brauchen etwas zum Kuerzen
+    #1  wenn b = 0 dann
+    #2    Ergebnis = a
+    #3  sonst
+    #4    Ergebnis = EUCLID(b, Divisionsrest(a durch b))    // siehe Modulo-Funktion
+    @staticmethod
+    def ggT(a, b):
+        if b == 0:
+            return a
+        else:
+            return Bruch.ggT(b, a % b)
+    #or: math.gcd(a,b)
+
+    def __init__(self, z, n = 1): # zweiter Wert jetzt mit Default
         '''
         :param z: Zähler
         :param n: Nenner
@@ -34,9 +47,6 @@ class Bruch(object):
     def __repr__(self):
         return "%i / %i" % (self.z, self.n)
 
-    # @staticmethod
-    # def kgV(a, b):
-
 #~~~ some simple examples ~~~
 a = Bruch(3, 4) # zum Anlegen muss man leider dann auch diese Notation benutzen; für die Initialisierung
 b = Bruch(1, 8)
@@ -56,3 +66,7 @@ e = 4 * a
 # es schließt sich folgender Aufruf an:
 # e = a.__rmul__(4)
 print(e)
+
+x = Bruch(5)
+
+print(Bruch.ggT(12, 4))
