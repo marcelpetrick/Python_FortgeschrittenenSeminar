@@ -18,7 +18,7 @@ class Kalenderuhr(Kalender, uhr.Clock):
     def nextSecond(self):
         super().nextSecond() # call from the method "above"; if there are several super-classes with same method, then take from the first fitting
         #super(Kalenderuhr, self).nextSecond() # also possible: determine the super-class of Kalenderuhr
-        # overflow if next day :)
+        # overflow if next day is reached :)
         if (0,0,0) == (self.hour, self.minute, self.second):
             super().nextDay()
 
@@ -28,4 +28,4 @@ class Kalenderuhr(Kalender, uhr.Clock):
 cc = Kalenderuhr(31, 12, 1999, 23, 59, 59)
 for t in range(10000000):
     print(cc)
-    cc.nextSecond()
+    cc.nextSecond() # calls our method
