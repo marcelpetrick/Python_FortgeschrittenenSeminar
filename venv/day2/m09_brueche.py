@@ -122,3 +122,7 @@ print("good?")
 # print(j)
 # print("unser zeug")
 # print(Math.kgV(5,2))
+
+
+# numpy als referenz: https://docs.scipy.org/doc/numpy-1.13.0/user/index.html
+# ebenfalls: https://google.github.io/styleguide/pyguide.html
