@@ -59,8 +59,8 @@
       <file leaf-file-name="m08_type_check_decoration.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="125" selection-start-line="2" selection-start-column="125" selection-end-line="2" selection-end-column="125" />
+            <state relative-caret-position="85">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -173,25 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m07_decoration">
-    <configuration name="m04_fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m04_fibonacci.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.m08_type_check_decoration">
     <configuration name="m04_fibonacci_memoisation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,20 +246,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="m08_type_check_decoration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.m04_fibonacci" />
       <item itemvalue="Python.m04_fibonacci_memoisation" />
       <item itemvalue="Python.m05_fibonacci_memoisation" />
       <item itemvalue="Python.m06_fibonacci_decorated" />
       <item itemvalue="Python.m07_decoration" />
+      <item itemvalue="Python.m08_type_check_decoration" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m08_type_check_decoration" />
         <item itemvalue="Python.m07_decoration" />
         <item itemvalue="Python.m06_fibonacci_decorated" />
         <item itemvalue="Python.m05_fibonacci_memoisation" />
         <item itemvalue="Python.m04_fibonacci_memoisation" />
-        <item itemvalue="Python.m04_fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -298,14 +298,14 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18594436" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18594436" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50073206" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3296875" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3296875" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -463,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day2/m08_type_check_decoration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="125" selection-start-line="2" selection-start-column="125" selection-end-line="2" selection-end-column="125" />
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
