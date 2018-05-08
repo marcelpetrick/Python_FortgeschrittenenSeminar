@@ -50,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m04_fibonacci.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m04_fibonacci.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m04_fibonacci_memoisation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci_memoisation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -86,6 +95,7 @@
         <option value="$PROJECT_DIR$/venv/day2/m02_kalenderuhr.py" />
         <option value="$PROJECT_DIR$/venv/day2/m03_fakultaet.py" />
         <option value="$PROJECT_DIR$/venv/day2/m04_fibonacci.py" />
+        <option value="$PROJECT_DIR$/venv/day2/m04_fibonacci_memoisation.py" />
       </list>
     </option>
   </component>
@@ -160,6 +170,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tanteedith\PycharmProjects\20180507_PythonFortgeschrittene\venv\day2" />
       <recent name="C:\Users\tanteedith\PycharmProjects\20180507_PythonFortgeschrittene\venv\day1" />
     </key>
   </component>
@@ -175,25 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m04_fibonacci">
-    <configuration name="m01_uhr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m01_uhr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.m04_fibonacci_memoisation">
     <configuration name="m02_kalenderuhr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,6 +241,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="m04_fibonacci_memoisation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m04_fibonacci_memoisation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="m06_kalender" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,18 +279,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.m06_kalender" />
-      <item itemvalue="Python.m01_uhr" />
       <item itemvalue="Python.m02_kalenderuhr" />
       <item itemvalue="Python.m03_fakultaet" />
       <item itemvalue="Python.m04_fibonacci" />
+      <item itemvalue="Python.m04_fibonacci_memoisation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m04_fibonacci_memoisation" />
         <item itemvalue="Python.m04_fibonacci" />
         <item itemvalue="Python.m03_fakultaet" />
         <item itemvalue="Python.m02_kalenderuhr" />
         <item itemvalue="Python.m06_kalender" />
-        <item itemvalue="Python.m01_uhr" />
       </list>
     </recent_temporary>
   </component>
@@ -430,8 +441,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci_memoisation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
         </state>
       </provider>
     </entry>
