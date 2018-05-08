@@ -10,3 +10,7 @@ m01_kennenlernen.py
 
 wie die sachen sindvoll in packages strukturieren?
 mein ziel: threads und synchronisation
+
+
+-----------
+install cygwin!
