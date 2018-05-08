@@ -13,9 +13,13 @@ class Bruch(object):
         self.n = n
 
     def __mul__(self, other):
-        return 42
+        return Bruch(self.z * other.z, self.n * other.n)
+
+    def __repr__(self):
+        print("%i / %ii")
 
 a = Bruch(3, 4) # zum Anlegen muss man leider dann auch diese Notation benutzen; für die Initialisierung
 b = Bruch(1, 8)
 c = a * b # multiplikation jetzt als einfachste Funktion
+c = a.__mul__(b) # identischer Aufruf; entspricht der vorhergehenden Zeile
 print(c)
