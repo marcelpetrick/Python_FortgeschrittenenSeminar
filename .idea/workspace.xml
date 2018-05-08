@@ -14,8 +14,8 @@
       <file leaf-file-name="m06_kalender.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day1/m06_kalender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="127">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -32,8 +32,8 @@
       <file leaf-file-name="m02_kalenderuhr.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/day2/m02_kalenderuhr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="92" lean-forward="true" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+            <state relative-caret-position="204">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding>
                 <element signature="e#130#185#0" expanded="true" />
               </folding>
@@ -377,17 +377,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-77676315/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="794" column="32" lean-forward="true" selection-start-line="794" selection-start-column="32" selection-end-line="794" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/day1/m06_kalender.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="127">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day2/m02_kalenderuhr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="92" lean-forward="true" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
+        <state relative-caret-position="204">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding>
             <element signature="e#130#185#0" expanded="true" />
           </folding>

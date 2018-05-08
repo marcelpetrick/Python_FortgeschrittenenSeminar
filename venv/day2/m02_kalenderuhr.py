@@ -1,5 +1,5 @@
-# Vererbung: Wiedernutzung von Klassen; Hierarchien bilden
-# Multi-Inheritance in Python möglich
+# Inheritance: reuse classes; create hierarchies
+# Multi-Inheritance is possible in Python
 
 # from day2.m01_uhr import Clock
 import day2.m01_uhr as uhr  # works and assigns as "uhr"
@@ -14,10 +14,14 @@ class Kalenderuhr(Kalender, uhr.Clock):
         #return "%02i.%02i.%04i - %02i:%02i:%02i" % (self.jahr, self.monat, self.tag, self.hour, self.minute, self.second)
         return Kalender.__repr__(self) + " - " + uhr.Clock.__repr__(self)
 
+    # override method from the clock
+    def nextSecond(self):
+        super().nextSecond() # call from the method "above"
+
 # ---------------- main block ----------------
 
 # cc for calender-clock
 cc = Kalenderuhr(31, 12, 1999, 23, 59, 59)
-for t in range(1000):
+for t in range(10000000):
     print(cc)
     cc.nextSecond()
