@@ -20,6 +20,6 @@ def fib(n):
 # can be replaced by the decoration in line 13
 #fib = dekoriere(fib)
 
-print(fib(50)) # eventuell einmal mit pythontutor parsen
+print(fib(4)) # eventuell einmal mit pythontutor parsen
 
 # closure als kontext des funktionsaufrufes
