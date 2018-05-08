@@ -11,3 +11,17 @@
 
 # 5! = 5 * (5-1)! = 5 * (4 * (4-1)!) = ..
 
+def fakultaet_rekursiv(n): #maybe add a check for positivity of n
+    if n < 0:
+        return -1 #error!
+
+    if n == 0:
+        return 1
+    else:
+        return n * fakultaet_rekursiv(n - 1)
+
+fak = fakultaet_rekursiv(997) # 998 too big
+print("fak of 997 is:", fak)
+
+fak = fakultaet_rekursiv(-5)
+print("fak of -5 is:", fak)
