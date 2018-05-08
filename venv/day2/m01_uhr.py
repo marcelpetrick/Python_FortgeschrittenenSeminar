@@ -24,10 +24,11 @@ class Clock(object):
     def __repr__(self):
         return "%02i.%02i.%02i" % (self.hour, self.minute, self.second)
 
-clock = Clock(23,59,58)
+if __name__ == "__main__": # just run if the current module name is ours ... so that when imported this is not executed
+    clock = Clock(23,59,58)
 
-print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-for t in range(100):
-    print(clock)
-    clock.nextSecond()
+    for t in range(100):
+        print(clock)
+        clock.nextSecond()

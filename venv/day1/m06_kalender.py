@@ -37,17 +37,18 @@ class Kalender(object):
     def __repr__(self):
         return "%02i.%02i.%04i" % (self.tag, self.monat, self.jahr)
 
-k = Kalender(31,12,2017)
+if __name__ == "__main__":  # just run if the current module name is ours ... so that when imported this is not executed
+    k = Kalender(31,12,2017)
 
-print(k)
-k.nextDay()
-print(k)
-
-print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-
-for t in range(10):
     print(k)
     k.nextDay()
+    print(k)
+
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
+    for t in range(10):
+        print(k)
+        k.nextDay()
 
 
-print("defined months:", len(Kalender.tageProMonat))
+    print("defined months:", len(Kalender.tageProMonat))
