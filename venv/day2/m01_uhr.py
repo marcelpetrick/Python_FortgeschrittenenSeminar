@@ -1,11 +1,12 @@
 class Clock(object):
-    # Konstruktormethode (eine spezielle Objektmethode)
-    def __init__(self, hour, minute, second): # just for testing if there is some kind of warning in case of not using all params
+    # ctor
+    def __init__(self, hour, minute, second): # just for testing: unused params will not be reported as warning (already fixed)
         # todo: add checks for the ranges
         self.hour = hour
         self.minute = minute
         self.second = second
 
+    # regular methods
     def nextSecond(self):
         self.second += 1
         if self.second >= 60:
@@ -19,16 +20,14 @@ class Clock(object):
         if self.hour >= 24:
             self.hour = 0
 
-    # Magische Methode (spezielle Objektmethode)
+    # representation
     def __repr__(self):
         return "%02i.%02i.%02i" % (self.hour, self.minute, self.second)
 
 clock = Clock(23,59,58)
 
-
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-for t in range(100000):
+for t in range(100):
     print(clock)
     clock.nextSecond()
-
