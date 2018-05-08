@@ -16,7 +16,8 @@ class Kalenderuhr(Kalender, uhr.Clock):
 
     # override method from the clock
     def nextSecond(self):
-        super().nextSecond() # call from the method "above"
+        super().nextSecond() # call from the method "above"; if there are several super-classes with same method, then take from the first fitting
+        #super(Kalenderuhr, self).nextSecond() # also possible: determine the super-class of Kalenderuhr
 
 # ---------------- main block ----------------
 
