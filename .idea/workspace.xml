@@ -95,8 +95,8 @@
       <file leaf-file-name="m04_threads.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/day3/m04_threads.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="306">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -369,14 +369,14 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22693998" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22693998" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50073206" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3296875" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3296875" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3296875" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -629,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day3/m04_threads.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="306">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>

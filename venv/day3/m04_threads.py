@@ -12,22 +12,22 @@ def synchronized(f, lock):
 class atomicvar(object):
     def __init__(self, value):
         self._value = value
-        self.lock = allocate_lock()
+        self.lock = _allocate_lock()
+        self.sync_methods()
 
-    # needed for the property: should get later protection
-    # even if "reading" and "writing" are protected (currently not), then read+increment has to be specially secured
-    @synchronized(self.lock)
     def get(self):
         return self._value
 
-    @synchronized
     def set(self, value):
         self._value = value
 
-    # alle Funktionen, die unter Ausschluss der Nebenläufigkeit funktionieren sollen, dekorieren
-    @synchronized
     def add(self, i):
         self._value += i
+
+    def sync_methods(self):
+        self.get = synchronized(self.get, self.lock)
+        self.set = synchronized(self.set, self.lock)
+        self.add = synchronized(self.add, self.lock)
 
     # property definition
     value = property(get, set)
@@ -41,12 +41,12 @@ def heron(a):
     global num_threads, thread_started
 
     num_threads.add(1)
-    thread_started = True
+    thread_started.value = True
 
     sleep(1)
     print(a)
 
-    num_threads -= 1
+    num_threads.add(-1)
     return 42
 
 # --------------------------------------------------------
@@ -58,5 +58,5 @@ _start_new_thread(heron, (17334,))
 
 #sleep(3) # if removed, then the output is shown
 
-while not thread_started or num_threads.value > 0:
+while not thread_started.value or num_threads.value > 0:
     pass
