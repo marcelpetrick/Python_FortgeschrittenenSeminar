@@ -6,6 +6,11 @@
 # taken from en.wikipedia.org
 import tkinter as tk
 
+def fib(n):
+    if n in (0,1):
+        return 1
+    return fib(n-2) + fib(n-1) #else vermieden: Einrückungstiefe gespart
+
 class Application(tk.Frame):
     def __init__(self, master=None):
         super(Application, self).__init__(master)
@@ -18,6 +23,7 @@ class Application(tk.Frame):
 
     def go(self):
         print("Foo")
+        print(fib(40))
 
 app = Application()
 app.master.title('m06_worker_thread')
