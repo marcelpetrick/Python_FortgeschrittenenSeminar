@@ -9,6 +9,7 @@
 import tkinter as tk
 from threading import Thread, Lock
 from queue import Queue
+import copy
 
 # Fibonacci-implementation
 def fib(n):
@@ -61,7 +62,7 @@ class Application(tk.Frame):
     def updateResults(self):
         resultString = ""
         # create a copy of the queue and the iterate over it by consuming all items
-        copyListe = Queue(MeinThread.liste) # THIS is wrong, because no copy
+        copyListe = copy.copy(MeinThread.liste) # THIS is wrong, because no copy
         while not copyListe.empty():
             resultString += str(copyListe.get_nowait())
         #self.resultsLabel.config(text = MeinThread.liste)
