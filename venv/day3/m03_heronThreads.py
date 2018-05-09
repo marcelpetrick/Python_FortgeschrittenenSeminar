@@ -1,13 +1,16 @@
-from threading import _start_new_thread
+from threading import _start_new_thread, _allocate_lock
 from time import sleep
 
 # globale Variable
 num_threads = 0
-
+lock_num_threads = _allocate_lock()
 
 def heron(a):
     global num_threads
-    num_threads += 1
+
+    lock_num_threads.acquire() # bleibt auf jeden Fall stehen bei Threadwechsel
+    num_threads += 1 # kritischer Abschnitt - den möchte man nicht nebenläufig ausführen
+    lock_num_threads.release()
 
     sleep(3)
     print(a)
