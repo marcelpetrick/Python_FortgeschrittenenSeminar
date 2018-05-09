@@ -35,14 +35,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m06_worker_thread.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m06_worker_thread.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day3/m06_worker_thread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="-10">
+              <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               <folding>
                 <element signature="e#343#363#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m07_generatoren_iteratoren.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day3/m07_generatoren_iteratoren.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/venv/day3/m05_threading.py" />
         <option value="$PROJECT_DIR$/venv/day2/m04_fibonacci.py" />
         <option value="$PROJECT_DIR$/venv/day3/m06_worker_thread.py" />
+        <option value="$PROJECT_DIR$/venv/day3/m07_generatoren_iteratoren.py" />
       </list>
     </option>
   </component>
@@ -186,25 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m06_worker_thread">
-    <configuration name="m02_threads" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day3/m02_threads.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.m07_generatoren_iteratoren">
     <configuration name="m03_heronThreads" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,20 +269,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="m07_generatoren_iteratoren" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day3/m07_generatoren_iteratoren.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.m02_threads" />
       <item itemvalue="Python.m03_heronThreads" />
       <item itemvalue="Python.m04_threads" />
       <item itemvalue="Python.m05_threading" />
       <item itemvalue="Python.m06_worker_thread" />
+      <item itemvalue="Python.m07_generatoren_iteratoren" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m07_generatoren_iteratoren" />
         <item itemvalue="Python.m06_worker_thread" />
         <item itemvalue="Python.m05_threading" />
         <item itemvalue="Python.m04_threads" />
         <item itemvalue="Python.m03_heronThreads" />
-        <item itemvalue="Python.m02_threads" />
       </list>
     </recent_temporary>
   </component>
@@ -311,14 +321,14 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22693998" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22693998" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50073206" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.3296875" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3296875" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3296875" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3296875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -591,11 +601,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day3/m06_worker_thread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="-10">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="e#343#363#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day3/m07_generatoren_iteratoren.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
