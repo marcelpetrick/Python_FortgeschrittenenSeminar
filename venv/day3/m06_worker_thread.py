@@ -3,9 +3,8 @@
 # Executor objects: https://pymotw.com/2/threading/
 # Tkinter - für graphische Oberflächen
 
-# !/usr/bin/env python3
+# taken from en.wikipedia.org
 import tkinter as tk
-
 
 class Application(tk.Frame):
     def __init__(self, master=None):
@@ -14,9 +13,12 @@ class Application(tk.Frame):
         self.createWidgets()
 
     def createWidgets(self):
-        self.quitButton = tk.Button(self, text='Quit', command=self.quit)
-        self.quitButton.grid()
+        self.goButton = tk.Button(self, text='Go', command=self.go) # hat schon eine Ereignisbehandlungsmethode
+        self.goButton.grid()
+
+    def go(self):
+        print("Foo")
 
 app = Application()
-app.master.title('Sample application')
+app.master.title('m06_worker_thread')
 app.mainloop()
