@@ -2,18 +2,19 @@ from threading import _start_new_thread, _allocate_lock
 from time import sleep
 
 # globale Variable
-num_threads = None
-lock_num_threads = _allocate_lock()
+num_threads = 0
+thread_started = False
+lock = _allocate_lock()
 
 def heron(a):
-    global num_threads
+    global num_threads, thread_started
 
-    lock_num_threads.acquire() # bleibt auf jeden Fall stehen bei Threadwechsel
-    num_threads = num_threads + 1 if num_threads != None else 1 # since the None-object was used before
-    num_threads += 1 # kritischer Abschnitt - den möchte man nicht nebenläufig ausführen
-    lock_num_threads.release()
+    lock.acquire() # bleibt auf jeden Fall stehen bei Threadwechsel
+    num_threads += 1
+    thread_started = True
+    lock.release()
 
-    sleep(3)
+    sleep(1)
     print(a)
 
     num_threads -= 1
@@ -28,5 +29,5 @@ _start_new_thread(heron, (17334,))
 
 #sleep(3) # if removed, then the output is shown
 
-while num_threads == num_threads or num_threads > 0:
+while not thread_started or num_threads > 0:
     pass
