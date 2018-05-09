@@ -49,7 +49,7 @@ class Application(tk.Frame):
         self.goButton = tk.Button(self, text='Go', command=self.go) # hat schon eine Ereignisbehandlungsmethode
         self.goButton.grid()
         # neues Steuerelement für die Ausgabe
-        self.resultsLabel = tk.Label(self, text="Foo\nbla")
+        self.resultsLabel = tk.Label(self, text="results will be displayed here")
         self.resultsLabel.grid()
 
     def go(self):
@@ -59,7 +59,13 @@ class Application(tk.Frame):
 
     # diese Methode kann man dann dem Workerthread übergeben
     def updateResults(self):
-        self.resultsLabel.config(text=MeinThread.liste)
+        resultString = ""
+        # create a copy of the queue and the iterate over it by consuming all items
+        copyListe = Queue(MeinThread.liste) # THIS is wrong, because no copy
+        while not copyListe.empty():
+            resultString += str(copyListe.get_nowait())
+        #self.resultsLabel.config(text = MeinThread.liste)
+        self.resultsLabel.config(text = resultString)
 
 #--------------------------------------------------------------------
 
