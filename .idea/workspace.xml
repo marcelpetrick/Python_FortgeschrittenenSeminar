@@ -34,11 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m01_sportwagen.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m01_sportwagen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day3/m01_sportwagen.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m02_threads.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day3/m02_threads.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+              <folding>
+                <element signature="e#93#109#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +101,7 @@
         <option value="$PROJECT_DIR$/../pYslandCounter/venv/pYslandCounter/FileReader.py" />
         <option value="$PROJECT_DIR$/../pYslandCounter/venv/pYslandCounter/pYslandCounter.py" />
         <option value="$PROJECT_DIR$/venv/day3/m01_sportwagen.py" />
+        <option value="$PROJECT_DIR$/venv/day3/m02_threads.py" />
       </list>
     </option>
   </component>
@@ -179,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m01_sportwagen">
+  <component name="RunManager" selected="Python.m02_threads">
     <configuration name="FileReader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pYslandCounter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,7 +229,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="m10_slots" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="m02_threads" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,11 +237,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m10_slots.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day3/m02_threads.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,19 +284,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.m10_slots" />
       <item itemvalue="Python.m11_slots" />
       <item itemvalue="Python.pYslandCounter" />
       <item itemvalue="Python.FileReader" />
       <item itemvalue="Python.m01_sportwagen" />
+      <item itemvalue="Python.m02_threads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m02_threads" />
         <item itemvalue="Python.m01_sportwagen" />
         <item itemvalue="Python.pYslandCounter" />
         <item itemvalue="Python.FileReader" />
         <item itemvalue="Python.m11_slots" />
-        <item itemvalue="Python.m10_slots" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +315,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22693998" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -542,6 +554,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day3/m02_threads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="31" column="144" selection-start-line="31" selection-start-column="144" selection-end-line="31" selection-end-column="144" />
+          <folding>
+            <element signature="e#93#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
