@@ -1,11 +1,10 @@
-from _thread import allocate_lock
-from threading import _start_new_thread, Thread
+from threading import Thread, Lock
 from time import sleep
 
 class mein_thread(Thread):
     num_threads = 0
     thread_started = False
-    lock = allocate_lock()
+    lock = Lock()
 
     def __init__(self, a):
         Thread.__init__(self)  #bei wichtiger Initialisierungsarbeit relevant diesen aufzurufen
