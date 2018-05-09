@@ -38,6 +38,7 @@ thread_started = atomicvar(False)
 lock = _allocate_lock()
 
 def heron(a):
+    # heisst, dass sie aus dem globalen Namensraum übernommen werden
     global num_threads, thread_started
 
     num_threads.add(1)

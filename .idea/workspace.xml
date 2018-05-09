@@ -11,15 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="m04_teilnehmer_kapselung.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day1/m04_teilnehmer_kapselung.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="109" selection-start-line="109" selection-end-line="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="m02_teilnehmer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day1/m02_teilnehmer.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,13 +83,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m04_threads.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m04_threads.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day3/m04_threads.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+            <state relative-caret-position="221">
+              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m05_threading.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day3/m05_threading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,6 +156,7 @@
         <option value="$PROJECT_DIR$/venv/day3/m02_threads.py" />
         <option value="$PROJECT_DIR$/venv/day3/m03_heronThreads.py" />
         <option value="$PROJECT_DIR$/venv/day3/m04_threads.py" />
+        <option value="$PROJECT_DIR$/venv/day3/m05_threading.py" />
       </list>
     </option>
   </component>
@@ -244,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m04_threads">
+  <component name="RunManager" selected="Python.m05_threading">
     <configuration name="m01_sportwagen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,38 +321,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pYslandCounter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pYslandCounter" />
+    <configuration name="m05_threading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pYslandCounter/venv/pYslandCounter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pYslandCounter/venv/pYslandCounter/pYslandCounter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day3/m05_threading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.pYslandCounter" />
       <item itemvalue="Python.m01_sportwagen" />
       <item itemvalue="Python.m02_threads" />
       <item itemvalue="Python.m03_heronThreads" />
       <item itemvalue="Python.m04_threads" />
+      <item itemvalue="Python.m05_threading" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m05_threading" />
         <item itemvalue="Python.m04_threads" />
         <item itemvalue="Python.m03_heronThreads" />
         <item itemvalue="Python.m02_threads" />
         <item itemvalue="Python.m01_sportwagen" />
-        <item itemvalue="Python.pYslandCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +380,7 @@
       <window_info anchor="bottom" id="Find" order="6" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.3296875" />
       <window_info anchor="bottom" id="Python Console" order="1" weight="0.3296875" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3296875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -629,10 +633,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day3/m04_threads.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        <state relative-caret-position="221">
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day3/m05_threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
