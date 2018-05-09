@@ -11,18 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="m04_threads.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day3/m04_threads.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="m05_threading.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day3/m05_threading.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m09_generators.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m09_generators.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day3/m09_generators.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m10_lottozahlen.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/day3/m10_lottozahlen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -167,6 +164,7 @@
         <option value="$PROJECT_DIR$/venv/day2/m04_fibonacci.py" />
         <option value="$PROJECT_DIR$/venv/day3/m08_iterators.py" />
         <option value="$PROJECT_DIR$/venv/day3/m09_generators.py" />
+        <option value="$PROJECT_DIR$/venv/day3/m10_lottozahlen.py" />
       </list>
     </option>
   </component>
@@ -252,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m09_generators">
+  <component name="RunManager" selected="Python.m10_lottozahlen">
     <configuration name="m04_fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20180507_PythonFortgeschrittene" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,24 +264,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m04_fibonacci.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="m06_worker_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day3/m06_worker_thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,20 +323,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="m10_lottozahlen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20180507_PythonFortgeschrittene" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day3/m10_lottozahlen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.m06_worker_thread" />
       <item itemvalue="Python.m07_generatoren_iteratoren" />
       <item itemvalue="Python.m08_iterators" />
       <item itemvalue="Python.m04_fibonacci" />
       <item itemvalue="Python.m09_generators" />
+      <item itemvalue="Python.m10_lottozahlen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.m10_lottozahlen" />
         <item itemvalue="Python.m09_generators" />
         <item itemvalue="Python.m08_iterators" />
         <item itemvalue="Python.m04_fibonacci" />
         <item itemvalue="Python.m07_generatoren_iteratoren" />
-        <item itemvalue="Python.m06_worker_thread" />
       </list>
     </recent_temporary>
   </component>
@@ -685,7 +683,14 @@
     <entry file="file://$PROJECT_DIR$/venv/day3/m09_generators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/day3/m10_lottozahlen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
