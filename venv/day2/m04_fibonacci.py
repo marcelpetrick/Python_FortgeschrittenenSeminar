@@ -15,8 +15,7 @@ def fib(n):
         return 1
     return fib(n-2) + fib(n-1) #else vermieden: Einrückungstiefe gespart
 
-fib = fib(40) # aber hat exponentielle Laufzeit
-print(fib)
-# deshalb gleich neu: Memoisation - Caching! Merken von bereits bestimmten Ergebnissen
-
-
+if __name__ == "__main__": # new
+    fib = fib(40) # aber hat exponentielle Laufzeit
+    print(fib)
+    # deshalb gleich neu: Memoisation - Caching! Merken von bereits bestimmten Ergebnissen

@@ -1,7 +1,10 @@
 from collections import Iterator
 
-#-------------------------------------------
+# just for testing to import the package-loading
+from day2.m04_fibonacci import fib as oldFib
 
+#-------------------------------------------
+# alwasys forward - never "back"
 class Fib(Iterator):
     def __init__(self):
         self.a = 1
@@ -23,6 +26,10 @@ print(fib.__next__())
 print(fib.__next__())
 print(fib.__next__())
 
+# just for testing with the import
+print(oldFib(10))
+
+
 # infinite return ...
-for x in Fib():
-    print(x)
+#for x in Fib():
+#    print(x)
