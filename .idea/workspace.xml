@@ -11,39 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="m05_threading.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day3/m05_threading.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="34" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m06_worker_thread.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day3/m06_worker_thread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-              <folding>
-                <element signature="e#343#363#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m07_generatoren_iteratoren.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day3/m07_generatoren_iteratoren.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="m08_iterators.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day3/m08_iterators.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,16 +27,52 @@
         <entry file="file://$PROJECT_DIR$/venv/day3/m09_generators.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="m10_lottozahlen.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="m10_lottozahlen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/day3/m10_lottozahlen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="211">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mathe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../meinProjekt/logic/mathe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../meinProjekt/logic/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matheBenutzen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../meinProjekt/logic/matheBenutzen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../meinProjekt/data/container.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -78,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -88,15 +91,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
               <caret line="13" selection-start-line="13" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="m02_kalenderuhr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/day2/m02_kalenderuhr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -165,6 +159,10 @@
         <option value="$PROJECT_DIR$/venv/day3/m08_iterators.py" />
         <option value="$PROJECT_DIR$/venv/day3/m09_generators.py" />
         <option value="$PROJECT_DIR$/venv/day3/m10_lottozahlen.py" />
+        <option value="$PROJECT_DIR$/../meinProjekt/logic/__init__.py" />
+        <option value="$PROJECT_DIR$/../meinProjekt/logic/mathe.py" />
+        <option value="$PROJECT_DIR$/../meinProjekt/logic/matheBenutzen.py" />
+        <option value="$PROJECT_DIR$/../meinProjekt/data/container.py" />
       </list>
     </option>
   </component>
@@ -194,15 +192,26 @@
             </path>
             <path>
               <item name="20180507_PythonFortgeschrittene" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20180507_PythonFortgeschrittene" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="meinProjekt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="20180507_PythonFortgeschrittene" type="b2602c69:ProjectViewProjectNode" />
-              <item name="20180507_PythonFortgeschrittene" type="462c0819:PsiDirectoryNode" />
+              <item name="meinProjekt" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20180507_PythonFortgeschrittene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meinProjekt" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20180507_PythonFortgeschrittene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neuesProjekt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="20180507_PythonFortgeschrittene" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neuesProjekt" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,38 +259,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m10_lottozahlen">
-    <configuration name="m04_fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
+  <component name="RunManager" selected="Python.container">
+    <configuration name="container" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="meinProjekt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../meinProjekt/data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day2/m04_fibonacci.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="m07_generatoren_iteratoren" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="20180507_PythonFortgeschrittene" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/day3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/day3/m07_generatoren_iteratoren.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../meinProjekt/data/container.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,20 +332,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="matheBenutzen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="meinProjekt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../meinProjekt/logic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../meinProjekt/logic/matheBenutzen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.m07_generatoren_iteratoren" />
       <item itemvalue="Python.m08_iterators" />
-      <item itemvalue="Python.m04_fibonacci" />
       <item itemvalue="Python.m09_generators" />
       <item itemvalue="Python.m10_lottozahlen" />
+      <item itemvalue="Python.matheBenutzen" />
+      <item itemvalue="Python.container" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.container" />
+        <item itemvalue="Python.matheBenutzen" />
         <item itemvalue="Python.m10_lottozahlen" />
         <item itemvalue="Python.m09_generators" />
         <item itemvalue="Python.m08_iterators" />
-        <item itemvalue="Python.m04_fibonacci" />
-        <item itemvalue="Python.m07_generatoren_iteratoren" />
       </list>
     </recent_temporary>
   </component>
@@ -628,7 +637,7 @@
     <entry file="file://$PROJECT_DIR$/venv/day3/m06_worker_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10">
-          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="e#343#363#0" expanded="true" />
           </folding>
@@ -666,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/venv/day2/m04_fibonacci.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -683,14 +692,42 @@
     <entry file="file://$PROJECT_DIR$/venv/day3/m09_generators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/day3/m10_lottozahlen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="211">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meinProjekt/logic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meinProjekt/logic/mathe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meinProjekt/logic/matheBenutzen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meinProjekt/data/container.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

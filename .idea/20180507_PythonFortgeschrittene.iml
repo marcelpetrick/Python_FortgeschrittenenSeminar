@@ -7,6 +7,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pYslandCounter" />
+    <orderEntry type="module" module-name="neuesProjekt" />
+    <orderEntry type="module" module-name="meinProjekt" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
